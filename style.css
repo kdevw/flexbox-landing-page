@@ -3,7 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	border: 1px dashed #777;
+	/*border: 1px dashed #777;*/
 }
 
 html, body {
@@ -81,7 +81,7 @@ html, body {
 /* button(s) */
 button {
 	padding: 5px 25px;
-	border-radius: 5px;
+	border-radius: 7px;
 	font-weight: bold;
 	font-size: 18px;
 	cursor: pointer;
@@ -121,7 +121,7 @@ button {
 	padding: 40px 0 0;
 	/*flex: 1;*/
 	justify-content: space-between;
-	gap: 40px;
+	gap: 60px;
 }
 
 .card {
