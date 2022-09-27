@@ -1,86 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<!-- Meta Info -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<title>Flexbox Landing Page</title>
-
-	<!-- Roboto Font -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
-
-	<!-- Main styleshet -->
-	<link rel="stylesheet" href="style.css" type="text/css" />
-
+    <!-- Meta Info -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Landing Page</title>
+    <!-- Roboto Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <!-- Main styleshet -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
+
 <body>
-	<header>
-		<div class="brand">
-			<h1>Site Title</h1>
-		</div><!-- / .brand -->
-		<nav>
-			<a href="#">About</a>
-			<a href="#">Work</a>
-			<a href="#">Contact</a>
-		</nav>
-	</header>
+    <header class="bg-dark">
+    	
+    	<section class="navbar">
+	        <div class="brand">
+	            <h1>Site Title</h1>
+	        </div><!-- / .brand -->
+	        <nav>
+	            <a href="#">About</a>
+	            <a href="#">Work</a>
+	            <a href="#">Contact</a>
+	        </nav>    		
+    	</section><!-- / .navbar -->
 
-	<section id="hero">
-		<div class="hero-message">
-			<h2>This website is awesome</h2>
-			<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Maiores suscipit fuga, optio cumque magni, porro ut atque numquam, perspiciatis consectetur, ea quasi error assumenda necessitatibus amet ducimus. Ipsa, soluta adipisci.</p>
-			<button href="#">Sign up</button>
-		</div><!-- / .hero-message -->
-		<div class="hero-img">
-			<img src="https://via.placeholder.com/350x150.png?text=This+is+a+placeholder+for+an+image" alt="Image placeholder" />
-		</div><!-- / .hero-img -->
-	</section><!-- / #hero -->
+        <section id="hero">
+            <div class="hero-message">
+                <h2>This website is awesome</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Maiores suscipit fuga, optio cumque magni, porro ut atque numquam, perspiciatis consectetur, ea quasi error assumenda necessitatibus amet ducimus. Ipsa, soluta adipisci.</p>
+                <button href="#">Sign up</button>
+            </div><!-- / .hero-message -->
+            <div class="hero-img">
+                <img src="https://via.placeholder.com/350x150.png?text=This+is+a+placeholder+for+an+image" alt="Image placeholder" />
+            </div><!-- / .hero-img -->
+        </section><!-- / #hero -->
+        
+    </header>
+    <section id="info-cards">
+        <h2 class="cards-heading">Some random information.</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="">
+                <p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Sint.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="">
+                <p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Dolore!</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Provident.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Necessitatibus!</p>
+            </div>
+        </div><!-- / .cards-container -->    
+    </section><!-- / #info-cards -->
 
-	<section id="info-cards">
-		<h2 class="cards-heading">Some random information.</h2>
-		<div class="cards-container">
-			<div class="card">
-				<img src="https://via.placeholder.com/150" alt="">
-				<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Sint.</p>
-			</div>
-			<div class="card">
-				<img src="https://via.placeholder.com/150" alt="">
-				<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Dolore!</p>
-			</div>
-			<div class="card">
-				<img src="https://via.placeholder.com/150" alt="">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Provident.</p>
-			</div>
-			<div class="card">
-				<img src="https://via.placeholder.com/150" alt="">
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Necessitatibus!</p>
-			</div>
-		</div><!-- / .cards-container -->		
-	</section><!-- / #info-cards -->
-	
-	<section id="quote">
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tenetur voluptatum, voluptatibus optio nisi laborum vitae voluptatem asperiores itaque deleniti nulla quis dolor harum. Voluptate mollitia, facilis facere nulla in.</p>
-		<cite>&mdash; Person, Very Important</cite>
-	</section><!-- / #quote -->
-	
-	<section id="cta">
-		<div class="cta-container">
-			<div class="cta-message">
-				<h2>Call to action!  It is time!</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores dolor sint!</p>
-			</div><!-- / .cta-message -->
-			<div class="cta-button">
-				<button href="#">Sign up</button>
-			</div><!-- / .cta-button -->
-		</div><!-- / .cta-container -->
-	</section><!-- / #cta -->
-	
-	<footer>
-		<p>Copyright &copy; KDW 2022</p>
-	</footer>
+    <section id="quote" class="bg-grey">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tenetur voluptatum, voluptatibus optio nisi laborum vitae voluptatem asperiores itaque deleniti nulla quis dolor harum. Voluptate mollitia, facilis facere nulla in.</p>
+        <cite>&mdash; Person, Very Important</cite>
+    </section><!-- / #quote -->
+    
+    <section id="cta">
+        <div class="cta-container bg-blue">
+            <div class="cta-message">
+                <h2>Call to action! It is time!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores dolor sint!</p>
+            </div><!-- / .cta-message -->
+            <div class="cta-button">
+                <button href="#">Sign up</button>
+            </div><!-- / .cta-button -->
+        </div><!-- / .cta-container -->
+    </section><!-- / #cta -->
+    
+    <footer class="bg-dark">
+        <p>Copyright &copy; KDW 2022</p>
+    </footer>
 
 </body>
 </html>
