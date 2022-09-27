@@ -143,3 +143,22 @@ button {
 	border-style: solid;
 	border-radius: 15px;
 }
+
+/* Quote section */
+#quote {
+	padding: 75px 0;
+}
+
+#quote p {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+#quote cite {
+	display: block;
+	text-align: right;
+	font-weight: bold;
+	font-size: 24px;
+	font-style: normal;
+}
