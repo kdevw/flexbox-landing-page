@@ -26,3 +26,15 @@ html, body {
 .bg-grey {
 	background-color: #e5e7eb;
 }
+
+.text-light {
+	color: #f9faf8;
+}
+
+.text-light-secondary {
+	color: #e5e7eb;
+}
+
+.text-dark {
+	color: #1F2937;
+}
