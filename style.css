@@ -16,6 +16,10 @@ html, body {
 	margin: 0 auto;
 }
 
+.d-flex {
+	display: flex;
+}
+
 /* Background classes */
 .bg-dark {
 	background-color: #1f2937;
@@ -47,14 +51,16 @@ html, body {
 	font-size: 24px;
 }
 
+.navbar {
+	padding: 20px 0;
+}
+
 .navbar .container {
-	display: flex;
 	justify-content: space-between;
 }
 
 .navbar nav {
-	display: flex;
-	gap: 20px;
+	gap: 40px;
 }
 
 .navbar nav a {
@@ -66,3 +72,29 @@ html, body {
 	font-size: 18px;
 }
 
+/* button(s) */
+button {
+	padding: 5px 25px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* Hero section */
+#hero {
+	padding: 75px 0;
+}
+
+#hero .container {
+	gap: 40px;
+}
+
+.hero-message h2 {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.hero-message p {
+	font-size: 18px;
+	padding: 10px 0;
+}
