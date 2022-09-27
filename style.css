@@ -1,0 +1,15 @@
+/* Styles for Flexbox Landing Page tutorial project */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 1px dashed #777;
+}
+
+html, body {
+	border: 0;
+}
+
+.container {
+	width: 75%;
+}
