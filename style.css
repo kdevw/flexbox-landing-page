@@ -13,8 +13,10 @@ html, body {
 
 .container {
 	width: 75%;
+	margin: 0 auto;
 }
 
+/* Background classes */
 .bg-dark {
 	background-color: #1f2937;
 }
@@ -27,6 +29,7 @@ html, body {
 	background-color: #e5e7eb;
 }
 
+/* Text color classes */
 .text-light {
 	color: #f9faf8;
 }
@@ -38,3 +41,28 @@ html, body {
 .text-dark {
 	color: #1F2937;
 }
+
+/* Header and navbar */
+.brand h1 {
+	font-size: 24px;
+}
+
+.navbar .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar nav {
+	display: flex;
+	gap: 20px;
+}
+
+.navbar nav a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #e5e7eb;
+	text-decoration: none;
+	font-size: 18px;
+}
+
