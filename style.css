@@ -84,6 +84,7 @@ button {
 	border-radius: 5px;
 	font-weight: bold;
 	font-size: 18px;
+	cursor: pointer;
 }
 
 /* Hero section */
@@ -181,4 +182,10 @@ button {
 
 .cta-button button {
 	border: 2px solid #fff;
+}
+
+footer {
+	padding: 40px 0;
+	text-align: center;
+	font-size: 18px;
 }
